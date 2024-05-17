@@ -2,6 +2,7 @@ import React from 'react'
 import "./Nav.css";
 import {FiHeart} from 'react-icons/fi'
 import {AiOutlineShoppingCart, AiOutlineUserAdd} from "react-icons/ai";
+import { CiSettings } from "react-icons/ci";
 
 function Nav({handleInputChange, query}) {
   return (
@@ -23,6 +24,9 @@ function Nav({handleInputChange, query}) {
       </a>
       <a href="#">
         <AiOutlineUserAdd className="nav-icons"/>
+      </a>
+      <a href="#">
+      <CiSettings className="nav-icons"/>
       </a>
 
      </div>
